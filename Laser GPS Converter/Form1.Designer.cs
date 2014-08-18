@@ -49,7 +49,6 @@
 			this.txtHovertip = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.btnExport = new System.Windows.Forms.Button();
-			this.linkLabel1 = new System.Windows.Forms.LinkLabel();
 			this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
 			this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
 			this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
@@ -260,16 +259,6 @@
 			this.btnExport.UseVisualStyleBackColor = true;
 			this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
 			// 
-			// linkLabel1
-			// 
-			this.linkLabel1.AutoSize = true;
-			this.linkLabel1.Location = new System.Drawing.Point(221, 296);
-			this.linkLabel1.Name = "linkLabel1";
-			this.linkLabel1.Size = new System.Drawing.Size(44, 13);
-			this.linkLabel1.TabIndex = 3;
-			this.linkLabel1.TabStop = true;
-			this.linkLabel1.Text = "About...";
-			// 
 			// openFileDialog1
 			// 
 			this.openFileDialog1.AddExtension = false;
@@ -323,7 +312,6 @@
 			this.ClientSize = new System.Drawing.Size(548, 326);
 			this.Controls.Add(this.label8);
 			this.Controls.Add(this.numericUpDown1);
-			this.Controls.Add(this.linkLabel1);
 			this.Controls.Add(this.btnExport);
 			this.Controls.Add(this.groupBox2);
 			this.Controls.Add(this.groupBox1);
@@ -364,7 +352,6 @@
 		private System.Windows.Forms.TextBox txtKeywords;
 		private System.Windows.Forms.TextBox txtAuthor;
 		private System.Windows.Forms.TextBox txtDesc;
-		private System.Windows.Forms.LinkLabel linkLabel1;
 		private System.Windows.Forms.OpenFileDialog openFileDialog1;
 		private System.Windows.Forms.SaveFileDialog saveFileDialog1;
 		private System.Windows.Forms.TextBox textBox1;
