@@ -117,7 +117,6 @@
 			this.groupBox2.Controls.Add(this.txtName);
 			this.groupBox2.Controls.Add(this.txtHovertip);
 			this.groupBox2.Controls.Add(this.label1);
-			this.groupBox2.Enabled = false;
 			this.groupBox2.Location = new System.Drawing.Point(218, 12);
 			this.groupBox2.Name = "groupBox2";
 			this.groupBox2.Size = new System.Drawing.Size(318, 247);
